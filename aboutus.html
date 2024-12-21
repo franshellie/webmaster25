@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mission</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background: url('thaifood.png') no-repeat center center/cover; /* Use the same background */
+            color: #ffffff;
+            box-sizing: border-box;
+        }
+
+        /* Menu Navigation */
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1d1f1e; /* Dark Grey */
+            padding: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for a fancy feel */
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #f7f7f7;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .menu a:hover {
+            background-color: #264a2b; /* Green on hover */
+            transform: translateY(-3px); /* Slight lift effect */
+        }
+
+        /* Mission Page Header */
+        .header {
+            text-align: center;
+            background-color: rgba(29, 31, 30, 0.8); /* Semi-transparent grey */
+            padding: 80px 20px;
+            color: #f7f7f7;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Fancy shadow */
+        }
+
+        .header h1 {
+            font-size: 4em;
+            letter-spacing: 10px;
+            margin: 0;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .header span {
+            display: block;
+            font-size: 1.5em;
+            font-style: italic;
+            margin-top: 20px;
+            color: #a4b2a6;
+        }
+
+        /* Section Styling */
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+            color: #f7f7f7;
+            transition: background-color 0.3s ease;
+        }
+
+        .section:nth-child(odd) {
+            background-color: rgba(38, 74, 43, 0.9); /* Subtle greenish background for odd sections */
+        }
+
+        .section:nth-child(even) {
+            background-color: rgba(29, 31, 30, 0.9); /* Darker grey for even sections */
+        }
+
+        .section h2 {
+            font-size: 2.8em;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 600;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-weight: 300;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section img {
+            max-width: 80%;
+            margin: 20px auto;
+            display: block;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Fancy shadow around images */
+        }
+
+        .section .highlight {
+            color: #229091;
+            font-weight: bold;
+        }
+
+        /* Add a subtle gradient background */
+        .gradient-background {
+            background: linear-gradient(135deg, #264a2b 10%, #1d1f1e 90%);
+            padding: 100px 0;
+            text-align: center;
+            color: #f7f7f7;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Menu Buttons at the Top (Same as Home Page) -->
+    <div class="menu-container">
+        <div class="menu">
+            <a href="projects.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="aboutus.html">Our Mission</a>
+            <a href="references.html">References</a>
+        </div>
+    </div>
+
+    <!-- Mission Page Header -->
+    <div class="header">
+        <h1>Our Mission</h1>
+        <span>Farm-to-Table. Sustainable. Exceptional Quality.</span>
+    </div>
+
+    <!-- Section: Farm-to-Table Approach -->
+    <div class="section gradient-background">
+        <h2>Farm-to-Table</h2>
+        <p>We believe in the power of only using the freshest ingredients sourced from our local farmers. Our<span class="highlight"> farm-to-table approach </span>means not only does your meal taste amazing, but it supports our local community, too. By working directly with farmers, we can ensure the quality and sustainability of every meal we serve. </p>
+
+        <img src="thaifarmers.avif" alt="Farm-to-Table Ingredients">
+    </div>
+
+    <!-- Section: Preparation Process -->
+    <div class="section">
+        <h2>Preparation Process</h2>
+        <p>Every dish is a labor of love, prepared with consideration and precision. Our chefs go to great lengths preparing every meal with methods which stay true to tradition while being innovative in their way. From the hand-selection of seasonal ingredients to artisan ways of preparation, our food tells a story of passion and craftsmanship.</p>
+        <img src="mealprep.jpg" alt="Food Preparation Process">
+    </div>
+
+    <!-- Section: Sustainability -->
+    <div class="section gradient-background">
+        <h2>Sustainability</h2>
+        <p>We are committed to reducing our environmental footprint. Our restaurant incorporates sustainable practices, from minimizing waste to using eco-friendly packaging. We strive to create a space where delicious food and sustainability go hand in hand. Every choice we make, from the food we source to the materials we use, reflects our dedication to a greener future.</p>
+        <img src="sustain.webp" alt="Sustainability Practices">
+    </div>
+
+</body>
+</html>
